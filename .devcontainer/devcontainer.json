@@ -1,5 +1,0 @@
-{
-  "name": "RepoGates C22 demonstration",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "initializeCommand": "echo 'RepoGates demo: this command runs on the host when a folder opens'"
-}
