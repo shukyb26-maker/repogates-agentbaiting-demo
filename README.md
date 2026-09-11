@@ -38,6 +38,10 @@ recommendation on top of them is the thing that tips the verdict.
 ## Scope, stated
 
 RepoGates gates browser-initiated downloads. It does not see `git clone`,
-package managers, `curl`, or an AI agent that fetches on its own.
+package managers or `curl` — outside Claude Code with the RepoGates
+plugin, whose hook refuses a clone or install that names a blocked
+repository on the command line, before it runs. An AI agent that fetches
+on its own is not seen either, unless it asks through the RepoGates MCP
+tools.
 
 Maintained by the RepoGates project purely as a demonstration fixture.
